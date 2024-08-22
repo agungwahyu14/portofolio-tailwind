@@ -79,7 +79,7 @@ export default function Home() {
                 alt="Placeholder"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold mb-2 dark:ext-white">
+              <h3 className="text-xl font-semibold mb-2 dark:text-white">
                 SMK 1 Denpasar
               </h3>
               <p className="text-gray-600 dark:text-white">
