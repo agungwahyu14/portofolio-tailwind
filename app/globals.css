@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.dark .bg-white {
+  background-color: #111827; /* Warna latar belakang gelap */
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.dark .text-gray-700 {
+  color: #e2e8f0; /* Warna teks terang */
+}
+
+/* Add other dark mode styles as needed */
